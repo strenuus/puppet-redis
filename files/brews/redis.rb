@@ -2,10 +2,10 @@ require 'formula'
 
 class Redis < Formula
   homepage 'http://redis.io/'
-  url 'http://redis.googlecode.com/files/redis-2.6.9.tar.gz'
+  url 'http://redis.googlecode.com/files/redis-2.6.4.tar.gz'
   sha1 '519fc3d1e7a477217f1ace73252be622e0101001'
 
-  version '2.6.9-boxen1'
+  version '2.6.4-boxen1'
 
   fails_with :llvm do
     build 2334

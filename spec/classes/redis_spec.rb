@@ -38,7 +38,7 @@ end
 
     should contain_homebrew__formula('redis').with_before('Package[boxen/brews/redis]')
     should contain_package('boxen/brews/redis').with({
-      :ensure => '2.6.9-boxen1',
+      :ensure => '2.6.4-boxen1',
       :notify => 'Service[dev.redis]'
     })
 

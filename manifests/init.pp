@@ -34,7 +34,7 @@ class redis {
   }
 
   package { 'boxen/brews/redis':
-    ensure => '2.6.9-boxen1',
+    ensure => '2.6.4-boxen1',
     notify => Service['dev.redis'],
   }
 
